@@ -15,5 +15,6 @@ class Config(Config):
     PYTDL_COMMAND_G = "pytdl@groupname"
     DESTINATION_FOLDER = "Mirroredxbot"
     LEECH_COMMAND = "leech@Mirroredxbot"
+    CANCEL_COMMAND_G = "cancel@Mirroredxbot"
     RCLONE_CONFIG = """type = drive\nscope = drive\ntoken = {"access_token":"ya29.-XX9fgU--","token_type":"Bearer","refresh_token":"1//0gLZEp8-VV2rZyourtCgYIARAAGBASNwF-","expiry":"2020-09-03T14:22:34.599776393Z"}\nteam_drive = """
     #put your config(replacing new lines with \n) in triple quote like above: """<your one liner config>"""
