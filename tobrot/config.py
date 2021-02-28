@@ -3,18 +3,18 @@ from tobrot.sample_config import Config
 #read readme too before filling these stuffs
 
 class Config(Config):
-    TG_BOT_TOKEN= "1658143488:AAHv7HKl9Tyz20VjrzBz1HkDrKQ3NKMnddg" #imp
-    APP_ID = 1244657 #imp
-    API_HASH = "b0fb3b798db670add65ae064006a856d" #imp
-    AUTH_CHANNEL = [-1001405974567, 873537185] #imp replace your_id with your id from telegram or delete
-    INDEX_LINK = "https://torrentleech.torrentleech-gdrive.workers.dev"
-    GLEECH_COMMAND = "gleech@TorrentUpBot"
-    YTDL_COMMAND = 'ytdl@TorrentUpBot'
-    TELEGRAM_LEECH_COMMAND_G = "tleech@TorrentUpBot"
+    TG_BOT_TOKEN= "1453211886:AAGXDImLnfTOBu0Jq8woTAMho3gbG5lcPmc" #imp
+    APP_ID = 2551863 #imp
+    API_HASH = "e0fd1ae2aa475f2cdc98e2f1652b0733" #imp
+    AUTH_CHANNEL = [-1001399307766, 1041175480] #imp replace your_id with your id from telegram or delete
+    INDEX_LINK = "https://nvs.thesquad.workers.dev/0:/"
+    GLEECH_COMMAND = "gleech@torrent_le_bot"
+    YTDL_COMMAND = 'ytdl@torrent_le_bot'
+    TELEGRAM_LEECH_COMMAND_G = "tleech@torrent_le_bot"
     CLONE_COMMAND_G = "gclone@groupname"
     PYTDL_COMMAND_G = "pytdl@groupname"
     DESTINATION_FOLDER = "TorrentUpBot"
-    LEECH_COMMAND = "leech@TorrentUpBot"
-    CANCEL_COMMAND_G = "cancel@TorrentUpBot"
-    RCLONE_CONFIG = """type = drive\nscope = drive\ntoken = {"access_token":"ya29.A0AfH6SMC77_jG23q5CWp-tnvDuBOAvmaOMJOlam4pef7zVeLivIUVJvY_vrpsKvnrxefc5sYCMS0Q4D5cOccNEpYEwvSiYeOo4eKe9ru-T5cEj_aAyyQdl0Lek-QnnCMWj61TB_-eli0q0V6MEDXTBrHJovlE","token_type":"Bearer","refresh_token":"1//04J9D1WvLhkERCgYIARAAGAQSNwF-L9IrKMxyzsG96G0agfwWu7pTyssNyXu-0xUUINciWQKW1sZiJ1mAOv4kjbbyKQ8DsgIxP3E","expiry":"2021-02-10T14:32:49.972607642+07:00"}\nteam_drive = 0AP-celMwOXo9Uk9PVA"""
+    LEECH_COMMAND = "leech@torrent_le_bot"
+    CANCEL_COMMAND_G = "cancel@torrent_le_bot"
+    RCLONE_CONFIG = """type = drive\nvs drive = drive\ntoken = {"access_token":"ya29.A0AfH6SMAruCxOkjvPtIjXwMi52eq44MtIoy-15nJAyqjaSGz6D1eQxDHWlmd22-04cp9BALB19nMVd9zFcPJCvywoRUKkoq6mJmo8pQ1HwSo4bPF-GL0mQUSEIMWNTOYp_sN9ya4vBsClwsIFGi9Tv7l98JZg","token_type":"Bearer","refresh_token":"1//0gfxFl_YNqhE3CgYIARAAGBASNwF-L9Irl9FDQHE-ZANxjfd464yThJz7nuqdoaTIZdOCd3I8V74AJoQuNS24rQLyMcghdkS3jYg","expiry":"2021-02-28T13:46:36.0231339+05:30"}\nteam_drive = 0ALQaCCEtiOskUk9PVA"""
     #put your config(replacing new lines with \n) in triple quote like above: """<your one liner config>"""
